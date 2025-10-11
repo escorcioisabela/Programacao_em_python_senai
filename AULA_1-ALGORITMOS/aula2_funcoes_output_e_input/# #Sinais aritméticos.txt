@@ -1,0 +1,73 @@
+# #Sinais aritméticos
+# # + - * / // % **
+# n1 = 10
+# n2 = 20
+# print(n1 + n2)
+# print(n1 - n2)
+# print(n1 * n2)
+# print(n1 / n2)
+# print(n1 // n2)
+# print(n1 % n2)
+# #Sinais lógicos - saída é sempre true ou false
+# n1 = 10
+# n2 = 2
+# print(n1 > n2)#maior
+# print(n1 < n2)#menor
+# print(n1 >= n2)#maior ou igual
+# print(n1 <=n2)#menor ou igual
+# print(n1 != n2)#diferente
+# print(n1 == n2)#igual
+# print('objeto') #outpt -- saída
+# nome = input('digite seu nome: ') #input -- entrada 'place holder'
+# # o Input naturalmente gera um texto, se for numero colocar o int ou float se for numero quebrado na frente
+# n1 = float(input('Digite um número:'))
+# n2 = float(input('Digite um número:'))
+# print(n1 + n2)
+# n1 = float(input('Digite um número:'))
+# n2 = float(input('Digite um número:'))
+# print(n1 - n2)
+# n1 = float(input('Digite um número:'))
+# n2 = float(input('Digite um número:'))
+# print(n1 / n2)
+# n1 = float(input('Digite um número:'))
+# n2 = float(input('Digite um número:'))
+# print(n1 * n2)
+# #concatenação -- juntar dados
+
+# nome = input('Digite seu nome:')
+# idade = int(input('Digite sua idade:'))
+# endereço = input('Digite seu endereço:')
+# curso = input('Curso:')
+# salário = float(input('Digite seu salário'))
+# # #concatenar
+# print('nome', nome)
+# print('Sua idade é:', idade)
+# print('Seu endereço é:', endereço)
+# print('Seu curso é:', curso)
+# print('Seu salário é:', salário)
+# #pular linha: print(), f''' ''',\n 
+
+valor = int(input('Digite um valor: '))
+print(valor ** 2)
+
+
+nome = 'isabela'
+sobrenome = 'escorcio'
+print("Nome: ", nome, sobrenome)
+
+
+
+num1 = int(input('Digite um número'))
+numero2 = int(input('Digite outro número'))
+print(str(num1),str(numero2))
+print('o resultado é:', num1 + numero2)
+
+
+variável = 'python'
+print(variável, 2)
+
+
+
+frase = 'a vida é bela'
+palavra = input('digite uma frase')
+print(frase, palavra)
